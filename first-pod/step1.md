@@ -7,7 +7,7 @@ Creating pod using **imperative** command
 
 ## Task 2 - Get Pod(s) List
 
-`kubectl get pods`{{exeucte}}
+`kubectl get pods`{{execute}}
 
 ## Task 3 - More information about the pod(s)
 
