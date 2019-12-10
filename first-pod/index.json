@@ -8,6 +8,10 @@
       {
         "title": "Create Kubernetes Pod",
         "text": "step1.md"
+      },
+      {
+        "title": "View the newly created pod information",
+        "text": "step2.md"
       }
     ],
     "intro": {
