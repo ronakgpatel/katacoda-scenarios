@@ -1,8 +1,8 @@
 {
-  "title": "1. Create your first pod",
+  "title": "Create your first pod",
   "description": "Creating k8s pod with command",
   "difficulty": "Beginner",
-  "time": "15 Minutes",
+  "time": "30 Minutes",
   "details": {
     "steps": [
       {
@@ -12,7 +12,17 @@
       {
         "title": "View the newly created pod information",
         "text": "step2.md"
+      },
+      {
+        "title": "Apply the label to the existing pod",
+        "text": "step3.md"
+      },
+      {
+        "title": "Try it on your own",
+        "text": "step4.md"
       }
+
+
     ],
     "intro": {
       "text": "intro.md"
