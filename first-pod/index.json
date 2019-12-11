@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "Create Kubernetes Pod",
-        "text": "step1.md"
+        "text": "step-create-pod.md"
       },
       {
         "title": "View the newly created pod information",
@@ -19,7 +19,7 @@
       },
       {
         "title": "Try it on your own",
-        "text": "step4.md"
+        "text": "step-pod-exercise.md"
       }
 
 
