@@ -1,6 +1,6 @@
 {
-  "title": "Create your first pod",
-  "description": "Creating k8s pod with command",
+  "title": "Pod, Deployment & service",
+  "description": "Creating k8s pod, deployment and services with imperative commands",
   "difficulty": "Beginner",
   "time": "30 Minutes",
   "details": {
