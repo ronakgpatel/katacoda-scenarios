@@ -1,5 +1,5 @@
 {
-  "title": "Pod, Deployment & service",
+  "title": "Pod, Deployment & Service",
   "description": "Creating k8s pod, deployment and services with imperative commands",
   "difficulty": "Beginner",
   "time": "30 Minutes",
