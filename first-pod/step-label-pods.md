@@ -11,6 +11,7 @@ Apply the label "type=pod" to the pod.
 
 
 View all the labels of the pod(s)
+
 `kubectl get pods --show-labels`{{execute}}
 
 
