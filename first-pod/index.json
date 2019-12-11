@@ -11,15 +11,19 @@
       },
       {
         "title": "View the newly created pod information",
-        "text": "step2.md"
+        "text": "step-get-pods.md"
       },
       {
         "title": "Apply the label to the existing pod",
-        "text": "step3.md"
+        "text": "step-label-pods.md"
       },
       {
         "title": "Try it on your own",
         "text": "step-pod-exercise.md"
+      },
+      {
+        "title": "Create a pod and execute 'ls' inside the pod"
+        "text": "step-inside-pod.md"
       }
 
 
