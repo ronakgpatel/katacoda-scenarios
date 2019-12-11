@@ -22,7 +22,7 @@
         "text": "step-pod-exercise.md"
       },
       {
-        "title": "Create a pod and execute 'ls' inside the pod"
+        "title": "Create a pod and execute ls inside the pod",
         "text": "step-inside-pod.md"
       }
 
