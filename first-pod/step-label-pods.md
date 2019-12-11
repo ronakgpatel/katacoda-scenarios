@@ -1,16 +1,19 @@
 View and apply label(s) to the pod
 
-## Task - 3 - Apply the lable to the pod
+## Task - 3 - Pods and Labels
 
 
-Apply the label "type=pod" to the pod.
+## View all the labels of the pod(s)
+
+`kubectl get pods --show-labels`{{execute}}
+
+
+## Apply the label "type=pod" to the pod.
 
 `kubectl label pod busybox-pod type=pod`{{execute}}
 
 
-
-
-View all the labels of the pod(s)
+## View all the labels of the pod(s)
 
 `kubectl get pods --show-labels`{{execute}}
 
