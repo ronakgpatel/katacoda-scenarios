@@ -5,7 +5,7 @@ Create basic kubernetes pod and inspect the information
 Once the pod is running, login into the pod console 
 
 
-`k run busybox-pod-1 --image=busybox --restart=Never --command -- /bin/sh -c 'sleep 3600'`{{execute}}
+`kubectl run busybox-pod-1 --image=busybox --restart=Never --command -- /bin/sh -c 'sleep 3600'`{{execute}}
 
 
 ## View the pod status
@@ -20,4 +20,5 @@ Once the pod is running, login into the pod console
 List files/folders inside the pod
 `ls -l`{{execute}}
 
-
+# Help 
+`kubectl run -h`{{execute}} 

@@ -6,6 +6,10 @@
   "details": {
     "steps": [
       {
+        "title": "K8S Introduction",
+        "text": "step-k8s-intro.md"
+      },
+      {
         "title": "Create Kubernetes Pod",
         "text": "step-create-pod.md"
       },
@@ -22,8 +26,12 @@
         "text": "step-pod-exercise.md"
       },
       {
-        "title": "Create a pod and execute ls inside the pod",
+        "title": "Create a pod and execute 'ls' inside the pod",
         "text": "step-inside-pod.md"
+      },
+      {
+        "title": "Scale the deployment manually",
+        "text": "step-scale-deployment.md"
       }
 
 
