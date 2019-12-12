@@ -26,7 +26,7 @@ To access the application from node(outside kubernetes cluster), service has to 
 `kubectl get svc`{{execute}}
 
 ## Help
-`kubectl expose -h`{{expose}}
+`kubectl expose -h`{{execute}}
 
 
 
