@@ -7,6 +7,7 @@ Creating pod using **imperative** command
 The following command creates pod with following specifications:
 
 <b> name: busybox-pod </b>
+
 <b> image: busybox </b>
 
 `kubectl run busybox-pod --image=busybox --restart=Never`{{execute}}
