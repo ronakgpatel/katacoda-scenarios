@@ -16,14 +16,14 @@ Observe the IP address allocated to the service.
 To access the application from node(outside kubernetes cluster), service has to be of the type NodePort.
 
 ## Delete the existing service
-`kubectl delete service nginx-deployment`
+`kubectl delete service nginx-deployment`{{execute}}
 
 ## Create the service with type NodePort
-`kubectl expose deployment nginx-deployment --type=NodePort --port=80`
+`kubectl expose deployment nginx-deployment --type=NodePort --port=80`{{execute}}
 
 ## Check the service
 
-`kubectl get svc`
+`kubectl get svc`{{execute}}
 
 ## Help
 `kubectl expose -h`{{expose}}
