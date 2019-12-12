@@ -3,7 +3,7 @@ Create basic kubernetes pod and inspect the information
 ## Task 2 - Get Pod(s) List
 
 <details>
-  <summary>command - get pods</summary>
+  <summary>Command</summary>
   <p>`kubectl get pods`{{execute}}</p>
 </details>
 
