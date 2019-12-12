@@ -9,7 +9,7 @@ Create basic kubernetes pod and inspect the information
 
 Check the value of 'Status' column of the pod.
 
-## More information about the pod(s)
+## More information about the pod(s)[IP, Node etc]
 
 <details>
   <summary>Command</summary>

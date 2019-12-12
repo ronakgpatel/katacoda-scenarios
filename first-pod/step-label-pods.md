@@ -2,36 +2,46 @@ View and apply label(s) to the pod
 
 ## Task - 3 - Pods and Labels
 
-<br/>
-
 ## View all the labels of the pod(s)
 
-`kubectl get pods --show-labels`{{execute}}
-
+<details>
+  <summary>Command</summary>
+  <p>`kubectl get pods --show-labels`{{execute}}</p>
+</details>
 
 
 
 ## Apply the label "type=pod" to the pod.
 
-`kubectl label pod busybox-pod type=pod`{{execute}}
-
+<details>
+  <summary>Command</summary>
+  <p>`kubectl label pod busybox-pod type=pod`{{execute}}</p>
+</details>
 
 
 
 ## View all the labels of the pod(s)
 
-`kubectl get pods --show-labels`{{execute}}
-
-
+<details>
+  <summary>Command</summary>
+  <p>`kubectl get pods --show-labels`{{execute}}</p>
+</details>
 
 
 ## Apply another label to the pod
 
-`kubectl label pod busybox-pod color=red`{{execute}}
-
+<details>
+  <summary>Command</summary>
+  <p>`kubectl label pod busybox-pod color=red`{{execute}}</p>
+</details>
 
 
 ## Change the existing label of the pod
 
-`kubectl label pod busybox-pod color=blue --overwrite`{{execute}}
+
+<details>
+  <summary>Command</summary>
+  <p>`kubectl label pod busybox-pod color=blue --overwrite`{{execute}}</p>
+</details>
+
   
