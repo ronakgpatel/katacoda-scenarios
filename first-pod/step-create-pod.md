@@ -10,6 +10,12 @@ The following command creates pod with following specifications:
 
 <b> image: busybox </b>
 
+
+<details>
+  <summary>Create Pod</summary>
+  <p>`kubectl run busybox-pod --image=busybox --restart=Never`{{execute}}</p>
+</details>
+
 `kubectl run busybox-pod --image=busybox --restart=Never`{{execute}}
 
 
