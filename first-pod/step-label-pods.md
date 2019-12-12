@@ -2,7 +2,6 @@ View and apply label(s) to the pod
 
 ## Task - 3 - Pods and Labels
 
-
 <br/>
 
 ## View all the labels of the pod(s)
