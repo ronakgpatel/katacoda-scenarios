@@ -37,7 +37,12 @@
       {
         "title": "Scale the deployment manually",
         "text": "step-scale-deployment.md"
+      },
+      {
+        "title": "Expose the deployment via service",
+        "text": "step-create-service.md"
       }
+
 
 
     ],

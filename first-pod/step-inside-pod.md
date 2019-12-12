@@ -20,5 +20,8 @@ Once the pod is running, login into the pod console
 List files/folders inside the pod
 `ls -l`{{execute}}
 
+#Try
+Can you check if the `busybox-pod` is rechable(ping) from the busybox-pod-1?
+
 # Help 
 `kubectl run -h`{{execute}} 
