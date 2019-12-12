@@ -7,7 +7,7 @@ Creating service using **imperative** command
 Existing deployments can be exposed via server on specific containerPort.
 
 `kubectl get deployments`{{execute}}
-`kubectl expose deployment nginx-deployment --port=80`{{execute}}
+`kubectl expose deployment nginx-deployment --port=80 --target-port=8088`{{execute}}
 
 `kubectl get services`{{execute}}
 
