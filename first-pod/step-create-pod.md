@@ -4,7 +4,7 @@ Create basic kubernetes pod and inspect the information
 
 Creating pod using **imperative** command
 
-The following command creates pod with following specifications:
+Create pod with following specifications:
 
 <b> name: busybox-pod </b>
 
@@ -14,12 +14,14 @@ The following command creates pod with following specifications:
 <details>
   <summary>Create Pod</summary>
   <p>`kubectl run busybox-pod --image=busybox --restart=Never`{{execute}}</p>
+  <p><b> --restart=Never </b> is mandatory to create pod.</p>
+
 </details>
 
-`kubectl run busybox-pod --image=busybox --restart=Never`{{execute}}
 
+## Help
+`kubectl run -h`{{execute}} 
 
-<b> --restart=Never </b> is mandatory to create pod.
 
 
 
