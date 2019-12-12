@@ -11,12 +11,16 @@ View and apply label(s) to the pod
 
 
 
+
+
 ## Apply the label "type=pod" to the pod.
 
 <details>
   <summary>Command</summary>
   <p>`kubectl label pod busybox-pod type=pod`{{execute}}</p>
 </details>
+
+
 
 
 
@@ -28,6 +32,8 @@ View and apply label(s) to the pod
 </details>
 
 
+
+
 ## Apply another label to the pod
 
 <details>
@@ -36,8 +42,9 @@ View and apply label(s) to the pod
 </details>
 
 
-## Change the existing label of the pod
 
+
+## Change the existing label of the pod
 
 <details>
   <summary>Command</summary>
