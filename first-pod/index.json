@@ -30,6 +30,11 @@
         "text": "step-inside-pod.md"
       },
       {
+        "title": "Create deployment nginx",
+        "text": "step-create-deployment.md"
+      }
+
+      {
         "title": "Scale the deployment manually",
         "text": "step-scale-deployment.md"
       }
