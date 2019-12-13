@@ -1,4 +1,1 @@
-while [ ! -f wait-script.sh ]
-do
- sleep .2
-done
+bash wait-script.sh
