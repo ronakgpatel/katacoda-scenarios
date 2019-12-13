@@ -7,5 +7,4 @@ Image:<b> busybox </b>
 Contianer Name : <b> busybox-container-1 </b>
 Command: <b> sleep 3600 </b>
 
-**If possible, try to use imperative command only**
 
