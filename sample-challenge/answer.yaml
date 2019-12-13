@@ -1,7 +1,7 @@
+<pre>
 apiVersion: v1
 kind: Pod
 metadata:
-  creationTimestamp: null
   labels:
     run: busybox-pod
   name: busybox-pod
@@ -13,7 +13,4 @@ spec:
     - sleep 3600
     image: busybox
     name: busybox-container-1
-    resources: {}
-  dnsPolicy: ClusterFirst
-  restartPolicy: Never
-status: {}
+</pre>
