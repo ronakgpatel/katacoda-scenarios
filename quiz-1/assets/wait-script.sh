@@ -14,3 +14,6 @@ echo -e "Creating objects..."
 sleep 10 
 
 `kubectl create -f /var/data/all.yaml`
+
+clear
+
