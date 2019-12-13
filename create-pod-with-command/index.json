@@ -1,8 +1,8 @@
 {
-  "title": "Sample Challenge",
-  "description": "k8S Challenge",
+  "title": "Create Pod Challenge",
+  "description": "Creating pod with command(5 Min)",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
