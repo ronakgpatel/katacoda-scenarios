@@ -1,15 +1,15 @@
 
 There is a deployment, pod and sevice already deployed with following specifications:
 
-Namespace : my-ns
+Namespace : <b>my-ns</b>
 
-Deployment name: nginx-deployment
+Deployment name: <b>nginx-deployment</b>
 
 Service Name: nginx-service
 
 Problem:
 
-The service created is of type node port on fixed node port : 30010
-However the when the service is not able to communicate with the pod.
+The nginx server is not accessible via node port,despite service already in place.
+Debug and fix the problem.
 
-Fix the problem.
+View the service : Render port 30010: https://[[HOST_SUBDOMAIN]]-30010-[[KATACODA_HOST]].environments.katacoda.com/
