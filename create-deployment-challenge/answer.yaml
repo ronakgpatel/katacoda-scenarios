@@ -1,0 +1,24 @@
+kubectl create ns my-ns
+
+<pre>
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx-deploy
+  name: nginx-deploy
+  namespace: my-ns
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: nginx-deploy
+  template:
+    metadata:
+      labels:
+        app: nginx-deploy
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+</pre>

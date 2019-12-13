@@ -1,0 +1,16 @@
+<pre>
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: busybox-pod
+  name: busybox-pod
+spec:
+  containers:
+  - command:
+    - bin/sh
+    - -c
+    - sleep 3600
+    image: busybox
+    name: busybox-container-1
+</pre>

@@ -1,5 +1,5 @@
 {
-  "title": "Pod, Deployment & Service",
+  "title": "Hands-On Pod, Deployment & Service",
   "description": "Creating k8s pod, deployment and services with imperative commands",
   "difficulty": "Beginner",
   "time": "30 Minutes",
@@ -18,7 +18,7 @@
         "text": "step-get-pods.md"
       },
       {
-        "title": "Apply the label to the existing pod",
+        "title": "Pods and Labels",
         "text": "step-label-pods.md"
       },
       {
@@ -30,9 +30,19 @@
         "text": "step-inside-pod.md"
       },
       {
+        "title": "Create deployment nginx",
+        "text": "step-create-deployment.md"
+      },
+    
+      {
         "title": "Scale the deployment manually",
         "text": "step-scale-deployment.md"
+      },
+      {
+        "title": "Expose the deployment via service",
+        "text": "step-create-service.md"
       }
+
 
 
     ],

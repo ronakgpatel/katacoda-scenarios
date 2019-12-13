@@ -1,0 +1,29 @@
+{
+  "title": "Create Pod Challenge",
+  "description": "Creating pod with command(5 Min)",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md",
+        "answer":"answer.yaml",
+        "verify":"check.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}

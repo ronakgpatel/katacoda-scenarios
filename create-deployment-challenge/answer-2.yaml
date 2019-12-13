@@ -1,0 +1,1 @@
+`kubectl -n my-ns expose deployment nginx-deploy --name=nginx-service --type=ClusterIP --port=8088 --target-port=80`{{execute}}

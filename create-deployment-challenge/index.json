@@ -1,0 +1,38 @@
+{
+  "title": "Create Deployment,Service Challenge",
+  "description": "Create deployment & service (10 min)",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md",
+        "answer": "answer.yaml",
+        "verify": "check.sh"
+      },
+
+      {
+        "title": "",
+        "text": "step2.md",
+        "answer": "answer-2.yaml",
+        "verify": "check-2.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal",
+    "uisettings": "yaml",
+    "icon":"fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}

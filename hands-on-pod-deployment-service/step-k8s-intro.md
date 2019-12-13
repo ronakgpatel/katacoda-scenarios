@@ -1,5 +1,9 @@
 Introduction to kubernetes
 
+## Chec the cluster information
+
+`kubectl cluster-info`{{execute}}
+
 ## Check the version
 
 `kubectl version`{{execute}}
