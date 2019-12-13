@@ -9,3 +9,5 @@ done
 echo -e "."
 echo -e "Loading Completed..."
 
+echo -e "Creating objects..."
+`kubectl create -f /var/data/all.yaml`
