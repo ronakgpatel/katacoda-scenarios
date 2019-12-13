@@ -12,4 +12,4 @@ Problem:
 The nginx server is not accessible via node port,despite service already in place.
 Debug and fix the problem.
 
-View the service : Render port 30010: https://[[HOST_SUBDOMAIN]]-30010-[[KATACODA_HOST]].environments.katacoda.com/
+Access service : https://[[HOST_SUBDOMAIN]]-30010-[[KATACODA_HOST]].environments.katacoda.com/
