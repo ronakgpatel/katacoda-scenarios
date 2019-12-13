@@ -8,7 +8,7 @@
       {
         "title": "K8S Introduction",
         "text": "step-k8s-intro.md",
-        "code": "wait.sh"
+        "code": "wait-for-start.sh"
       },
       {
         "title": "Create Kubernetes Pod",
