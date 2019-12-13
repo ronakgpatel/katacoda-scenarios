@@ -17,19 +17,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "answer.yaml",
-          "target": "/var/answers"
-        },
-        {
-          "file": "check.sh",
-          "target": "/var/check",
-          "chmod": "+x"
-        }
-      ]
     }
   },
   "environment": {
