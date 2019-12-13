@@ -23,6 +23,10 @@
           "file": "wait-script.sh",
           "target": "/tmp",
           "chmod": "+x"
+        },
+        {
+          "file": "all.yaml",
+          "target": "/var/data"
         }
       ]
     }
