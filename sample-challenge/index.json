@@ -1,0 +1,41 @@
+{
+  "title": "Sample Challenge",
+  "description": "k8S Challenge",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "answer":"/var/answers/answer.yaml",
+        "verify":"/var/check/check.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "answer.yaml",
+          "target": "/var/answers"
+        },
+        {
+          "file": "check.sh",
+          "target": "/var/check",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}
