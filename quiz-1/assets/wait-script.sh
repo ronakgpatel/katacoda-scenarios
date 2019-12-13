@@ -10,6 +10,7 @@ echo -e "."
 echo -e "Loading Completed..."
 
 echo -e "Creating objects..."
-sleep 5 
+
+sleep 10 
 
 `kubectl create -f /var/data/all.yaml`
