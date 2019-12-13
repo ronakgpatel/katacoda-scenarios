@@ -8,9 +8,9 @@ Service Name : <b> nginx-service </b>
 
 Type : <b>ClusterIP</b>
 
-Container Port : <b> 80 </b>
+Target Port : <b> 80 </b>
 
-Target Port : <b> 8088 </b>
+Port : <b> 8088 </b>
 
 Namespace : <b> my-ns </b>
 
