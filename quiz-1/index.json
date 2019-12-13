@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "wait-for-start.sh"
       }
     ],
     "intro": {

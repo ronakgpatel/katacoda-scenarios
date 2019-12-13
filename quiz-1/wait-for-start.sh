@@ -1,1 +1,1 @@
-bash /tmp/wait-script.sh
+/bin/sh -c /tmp/wait-script.sh
