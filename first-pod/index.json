@@ -18,7 +18,7 @@
         "text": "step-get-pods.md"
       },
       {
-        "title": "Apply the label to the existing pod",
+        "title": "Pods and Labels",
         "text": "step-label-pods.md"
       },
       {

@@ -1,7 +1,5 @@
 View and apply label(s) to the pod
 
-## Task - 3 - Pods and Labels
-
 ## View all the labels of the pod(s)
 
 <details>
@@ -11,7 +9,7 @@ View and apply label(s) to the pod
 
 
 
-
+<br/>
 
 ## Apply the label "type=pod" to the pod.
 
