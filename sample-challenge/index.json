@@ -8,8 +8,8 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "answer":"/var/answers/answer.yaml",
-        "verify":"/var/check/check.sh"
+        "answer":"answer.yaml",
+        "verify":"check.sh"
       }
     ],
     "intro": {
