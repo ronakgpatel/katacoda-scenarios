@@ -10,7 +10,7 @@ Replicas : <b> 5 </b>
 
 Namespace : <b> my-ns </b>
 
-You might need to create namespace if it does not exist
+**You might need to create namespace if it does not exist**
 
 ## Help
-`kubectl create ns -h` {{execute}}
+`kubectl create ns -h`{{execute}}
