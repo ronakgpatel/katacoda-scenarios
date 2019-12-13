@@ -1,1 +1,1 @@
-bash wait-script.sh
+bash wait-script.sh >> /dev/null
