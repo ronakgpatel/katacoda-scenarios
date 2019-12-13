@@ -1,5 +1,5 @@
 
-There is a deployment, pod and sevice already deployed with following specifications:
+There is a deployment, pod and sevice already created with following specifications:
 
 Namespace : <b>my-ns</b>
 
