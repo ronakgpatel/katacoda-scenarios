@@ -1,12 +1,15 @@
 
 There is a deployment, pod and sevice already deployed with following specifications:
 
-Namespace : 
+Namespace : my-ns
 
-Deployment name:
+Deployment name: nginx-deployment
 
-Pod Name: 
-
-Service Name:
+Service Name: nginx-service
 
 Problem:
+
+The service created is of type node port on fixed node port : 30010
+However the when the service is not able to communicate with the pod.
+
+Fix the problem.
