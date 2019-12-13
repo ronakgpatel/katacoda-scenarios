@@ -9,7 +9,13 @@ Scale the number of instances of the pod using **imperative** commands only.
 <h2> How many pods are currently running? </h2>
 
 Scaling number of instances to 5
-`kubectl scale deployment nginx-deployment --replicas=5`{{execute}}
+
+<details>
+  <summary>Command</summary>
+  <p>`kubectl scale deployment nginx-deployment --replicas=5`{{execute}}</p>
+</details>
+<br/>
+
 
 Now view the deployment and pod using :
 
