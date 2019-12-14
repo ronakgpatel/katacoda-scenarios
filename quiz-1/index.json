@@ -27,6 +27,11 @@
         {
           "file": "all.yaml",
           "target": "/var/data"
+        },
+        {
+          "file": "change-index.sh",
+          "target": "/var/data",
+          "chmod": "+x"
         }
       ]
     }
@@ -35,7 +40,12 @@
     "uilayout": "terminal",
     "icon": "fa-kubernetes",
     "uisettings": "yaml",
-    "dashboards": [{"name": "Display 30010", "port": 30010}]
+    "dashboards": [
+      {
+        "name": "Display 30010",
+        "port": 30010
+      }
+    ]
   },
   "backend": {
     "imageid": "kubernetes"

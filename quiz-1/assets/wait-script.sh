@@ -15,5 +15,7 @@ sleep 10
 
 `kubectl create -f /var/data/all.yaml`
 
+sh /var/data/change-index.sh
+
 clear
 
