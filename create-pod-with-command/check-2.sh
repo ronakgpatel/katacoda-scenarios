@@ -1,5 +1,5 @@
 expected_pod_name="busybox-pod"
-actual_pod_name=`kubectl get pods busybox-pod -o=jsonpath='{.status.metadata.name}{"\n"}'`
+actual_pod_name=`kubectl get pods busybox-pod -o=jsonpath='{.metadata.name}{"\n"}'`
 
 expected_command="/bin/sh -c sleep 3600"
 actual_command=`kubectl get pods busybox-pod -o=jsonpath='{.spec.containers[0].command}{"\n"}'`

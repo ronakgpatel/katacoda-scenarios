@@ -15,9 +15,17 @@
       {
         "title": "",
         "text": "step2.md",
-        "code": "deleteAllPods.sh",
+        "code": "delete-busybox-pod.sh",
         "answer": "answer-2.yaml",
         "verify": "check-2.sh"
+      },
+
+      {
+        "title": "",
+        "text": "step3.md",
+        "code": "delete-busybox-pod.sh",
+        "answer": "answer-3.yaml",
+        "verify": "check-3.sh"
       }
     ],
     "intro": {
