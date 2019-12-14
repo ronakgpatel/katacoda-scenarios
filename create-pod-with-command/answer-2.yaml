@@ -1,0 +1,1 @@
+`k run busybox-pod --image=busybox --labels="duration=onehr" --restart=Never --command -- /bin/sh -c 'sleep 3600'`{{execute}}

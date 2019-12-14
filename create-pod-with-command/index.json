@@ -2,14 +2,22 @@
   "title": "Create Pod Challenge",
   "description": "Creating pod with command(5 Min)",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
         "title": "",
         "text": "step1.md",
-        "answer":"answer.yaml",
-        "verify":"check.sh"
+        "code": "wait-for-start.sh",
+        "answer": "answer.yaml",
+        "verify": "check.sh"
+      },
+      {
+        "title": "",
+        "text": "step2.md",
+        "code": "deleteAllPods.sh",
+        "answer": "answer-2.yaml",
+        "verify": "check-2.sh"
       }
     ],
     "intro": {
@@ -17,6 +25,15 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "wait-script.sh",
+          "target": "/tmp",
+          "chmod": "+x"
+        }
+      ]
     }
   },
   "environment": {
