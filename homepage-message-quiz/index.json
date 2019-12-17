@@ -1,0 +1,49 @@
+{
+  "title": "Configure message on the home page of the server",
+  "description": "Message configuration on home page of web server",
+  "difficulty": "Beginner",
+  "time": "15",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "code": "wait-for-start.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "wait-script.sh",
+          "target": "/tmp",
+          "chmod": "+x"
+        },
+        {
+          "file": "create-deploy.yaml",
+          "target": "/var/data"
+        },
+        {
+          "file": "create-deployment.sh",
+          "target": "/var/data",
+          "chmod": "+x"
+        },
+        {
+          "file": "create-service.yaml",
+          "target": "/var/data"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}

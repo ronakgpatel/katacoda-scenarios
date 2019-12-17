@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx-deploy-cmd
+  name: nginx-deploy-cmd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-deploy-cmd
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: nginx-deploy-cmd
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        imagePullPolicy: IfNotPresent
+        command: ["bash"]
+        args: ["-c","sleep 30 && nginx && sleep 10  && echo $WELCOME_MESSAGE > /usr/share/nginx/html/index.html && sleep 3600"]
+        env:
+        - name: WELCOME_MESSAGE
+          value: "Default message"
+        resources: {}
