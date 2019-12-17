@@ -11,10 +11,13 @@ following links:
 Currenly both services displays the page with 'default message' on the home page.
 
 Access service-1 : https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com/
+
 Access service-2 : https://[[HOST_SUBDOMAIN]]-32000-[[KATACODA_HOST]].environments.katacoda.com/
 
 Task :
-Do necessary changes so that when service on port 31000 is accessed the message displayed is  'welcome to service on 31000'
-Do necessary changes so that when service on port 32000 is accessed the message displayed is  'welcome to service on 32000'
+1. Do necessary changes so that when service on port 31000 is accessed the message displayed is  'welcome to service on 31000'
+
+
+2. Do necessary changes so that when service on port 32000 is accessed the message displayed is  'welcome to service on 32000'
 
 
