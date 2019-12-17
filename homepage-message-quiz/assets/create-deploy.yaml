@@ -21,7 +21,7 @@ spec:
         name: nginx
         imagePullPolicy: IfNotPresent
         command: ["bash"]
-        args: ["-c","sleep 30 && nginx && sleep 10  && echo $WELCOME_MESSAGE > /usr/share/nginx/html/index.html && sleep 3600"]
+        args: ["-c","sleep 1 && nginx && echo $WELCOME_MESSAGE > /usr/share/nginx/html/index.html && sleep 3600"]
         env:
         - name: WELCOME_MESSAGE
           value: "Default message"
