@@ -14,10 +14,10 @@ Access service-1 : https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environmen
 
 Access service-2 : https://[[HOST_SUBDOMAIN]]-32000-[[KATACODA_HOST]].environments.katacoda.com/
 
-Task :
+Task : Create config map and use them in the deployment.
+<pre>
 1. Do necessary changes so that when service on port 31000 is accessed the message displayed is  'welcome to service on 31000'
 
 
 2. Do necessary changes so that when service on port 32000 is accessed the message displayed is  'welcome to service on 32000'
-
-
+</pre>
