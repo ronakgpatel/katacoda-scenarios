@@ -25,10 +25,14 @@
           "chmod": "+x"
         },
         {
-         "file": "create-deployment.yaml",
-         "target": "/var/data"
+          "file": "create-deployment.yaml",
+          "target": "/var/data"
+        },
+        {
+          "file": "create-deployment.sh",
+          "target": "/var/data",
+          "chmod": "+x"
         }
-
       ]
     }
   },

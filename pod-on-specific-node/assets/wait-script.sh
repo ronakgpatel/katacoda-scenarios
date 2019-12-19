@@ -13,7 +13,7 @@ echo -e "Creating objects..."
 
 sleep 10 
 
-`kubectl create -f create-deployment.yaml`
+sh /var/data/create-deployment.sh
 
 clear
 
