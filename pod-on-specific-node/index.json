@@ -23,7 +23,12 @@
           "file": "wait-script.sh",
           "target": "/tmp",
           "chmod": "+x"
+        },
+        {
+         "file": "create-deployment.yaml",
+         "target": "/var/data"
         }
+
       ]
     }
   },
