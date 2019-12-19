@@ -1,6 +1,6 @@
 {
-  "title": "pod-on-specific-node",
-  "description": "Create a deployment so that it is always scheduled and executed on selected node.",
+  "title": "Find out and fix the problem",
+  "description": "Area: Deployment, NodeSelection",
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
